@@ -5,9 +5,7 @@
 <!-- Then we need to put in a "place holder" so that jekyll knows where to 
 put the unique information -->
 <!-- the placeholder is in double curly braces and is called content
-i.e. <h1>Planets of the Universe</h1>
-<p>Lots of planets in the universe</p>
- -->
+i.e. {{content}} -->
 <!-- then in the index.html we need to tell jekyll what layout jekell is going to use -->
 <!-- we put that between two triple "-"  in the index.html -->
 <!DOCTYPE html>
@@ -21,15 +19,13 @@ i.e. <h1>Planets of the Universe</h1>
 	<h1>Planets of the Universe</h1>	
 	<nav>
 		<ul>
-			<li><a href="/index.html">Home</a></li>			
-			<li><a href="/news.html">News</a></li>
+			<li><a href="{{site.baseurl}}/index.html">Home</a></li>			
+			<li><a href="{{site.baseurl}}/news.html">News</a></li>
 		</ul>
 	</nav>
 </header>
 
-<h1>Planets of the Universe</h1>
-<p>Lots of planets in the universe</p>
-
+{{content}}
 
 </body>
 </html>
