@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: Images of the Day
 meta: In 1925, Observers Lined Manhattan to Measure the Total Solar Eclipse
 source: https://www.space.com/37764-new-york-city-1925-total-eclipse.html

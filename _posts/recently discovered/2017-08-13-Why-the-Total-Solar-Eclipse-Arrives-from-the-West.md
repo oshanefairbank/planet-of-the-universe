@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: Why the Total Solar Eclipse Arrives from the West
 meta: The moon's shadow, projected on Earth during a total solar eclipse, as seen from space. 
 source: https://www.space.com/37774-total-solar-eclipse-moves-west-to-east.html

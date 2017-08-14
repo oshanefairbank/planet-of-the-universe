@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-article
 title: Amazon refunds customers who bought suspect solar eclipse glasses
 meta: Amazon is reported issuing refunds as it has been unable to verify as coming from reputable manufactures
 source: https://www.space.com/37781-amazon-solar-eclipse-glasses-refunds.html
