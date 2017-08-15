@@ -5,3 +5,12 @@ layout: default
 
 <h1>Planets of the Universe</h1>
 <p>Lots of planets in the universe</p>
+
+<ol>
+{% for planet in site.categories.planet-type %}
+		<li>
+			<a href="">{{planet.title}}</a>
+			{{planet.content}}
+		</li>
+{% endfor %}
+</ol>

@@ -5,7 +5,7 @@ layout: news
 <h1>News</h1>
 
 <ul>
-	{% for news in site.categories.news limit:1 %}
+	{% for news in site.categories.news limit:100 %}
 	<li>
 		<a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
 		<p>{{news.meta}}</p>
