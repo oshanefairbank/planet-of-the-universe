@@ -1,0 +1,12 @@
+- title: Dwarf
+  folder: dwarf
+  content: 'A **gas giant** is a large planet composed mainly of hydrogen and helium'
+
+
+- title: Terrestrial 
+  folder: terrestrial
+  content: 'a **terrestrial planet**, **telluric planet** or **rocky planet** is a planet'
+
+- title: Gas Giant
+  folder: gas-giant
+  content: 'A **gas giant** is a large planet composed mainly of hydrogen and helium'

@@ -7,10 +7,10 @@ layout: default
 <p>Lots of planets in the universe</p>
 
 <ol>
-{% for planet in site.categories.planet-type %}
+{% for planet in site.data.planet-types%}
 		<li>
 			<a href="">{{planet.title}}</a>
-			{{planet.content}}
+			{{planet.content | markdownify}}
 		</li>
 {% endfor %}
 </ol>
