@@ -18,7 +18,7 @@ i.e. {{content}} -->
 
 <header class="masthead {{page.mastheadClass}}">
 	<h1>Planets of the Universe</h1>
-	<title>Planets of the Universe</title>
+	<title>{% if page.title %}{{page.title}} - {% endif %}Planets of the Universe</title>
 
 	{% include nav.html navclass='nav-top'%}
 </header>
